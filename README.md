@@ -1,5 +1,6 @@
-# Mongolia History Timeline
 Live Demo: https://tulparj.github.io/mongolia-history-timeline/
+
+# Mongolia History Timeline
 An interactive, data-driven web application visualizing key events in Mongolian history.
 
 ## Features
