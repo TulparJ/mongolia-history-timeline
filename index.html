@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mongolia History Timeline</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Mongolia History Timeline</h1>
+    <p>Interactive timeline from 1206 to today</p>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="searchInput" placeholder="Search events..." />
+    <div id="filters"></div>
+  </section>
+
+  <main class="layout">
+    <section class="timeline" id="timeline"></section>
+
+    <aside class="details" id="details">
+      <h2>Select an event</h2>
+      <p>Click an event on the left to view details.</p>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
